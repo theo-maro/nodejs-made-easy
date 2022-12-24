@@ -8,5 +8,5 @@ This is a comprehensive and up-to-date Node.js course for JavaScript back-end de
 
 Getting Started
 
-- [What is node?](./chapter%201-%20getting%20started/what-is-node.md)
-- [First Node program](./chapter%201-%20getting%20started/first-node-program.md)
+- [What is node?](./1-getting-started/what-is-node.md)
+- [First Node program](./1-getting-started/first-node-program.md)
