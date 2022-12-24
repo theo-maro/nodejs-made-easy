@@ -21,7 +21,7 @@ This is a comprehensive and up-to-date Node.js course for JavaScript back-end de
 
 ### First Node program
 
-- ctrate a file and write tour first node program inside it
+- create a file and write your first node program inside it
 
   ```js
   function sayHello(name) {

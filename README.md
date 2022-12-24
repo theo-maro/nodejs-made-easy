@@ -2,7 +2,7 @@
 
 This is a comprehensive and up-to-date Node.js course for JavaScript back-end developers
 
-<img src="./images/logo.svg" width="600" style="display: block; margin: 0 auto">
+<img src="./images/logo.svg" width="1600" style="display: block; margin: 0 auto">
 
 ## Table of Contents
 
