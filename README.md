@@ -10,3 +10,7 @@ Getting Started
 
 - [What is node?](./1-getting-started/what-is-node.md)
 - [First Node program](./1-getting-started/first-node-program.md)
+
+Node Module System
+
+- [Global Objects](./2-node-module-system/global-object.md)
