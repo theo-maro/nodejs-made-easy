@@ -14,3 +14,4 @@ Getting Started
 Node Module System
 
 - [Global Objects](./2-node-module-system/global-object.md)
+- [Modules](./2-node-module-system/modules.md)
