@@ -4,12 +4,9 @@ This is a comprehensive and up-to-date Node.js course for JavaScript back-end de
 
 ## Node Module System
 
-In this section, we're going to look at module system in Node by exploring the common modules built-in of the core such as `fs`, `os`, `events`, and `http` etc. you'll learn
+In this section, we're going to look at module system in Node by exploring the common modules built-in of the core such as `fs`, `os`, `events`, and `http` etc.
 
-- What modules are?
-- Why we need them?
-- How do they work?
-- how to create custom modules?
+[Home](../README.md) / Global Object / [Module](./modules.md) / [Built-in Module](./common-modules.md)
 
 ### Global Object
 
