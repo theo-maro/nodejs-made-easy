@@ -16,3 +16,9 @@ Node Module System
 - [Global Objects](./2-node-module-system/global-object.md)
 - [Modules](./2-node-module-system/modules.md)
 - [Common Built-in Modules](./2-node-module-system/common-modules.md)
+
+Node Package Manager
+
+- [NPM Packages](./3-node-package-manager/npm-packages.md)
+- [Semantic Versiioning](./3-node-package-manager/semantic-versioning.md)
+- [Publishing Packages](./3-node-package-manager/publish-package.md)
