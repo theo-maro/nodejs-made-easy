@@ -179,42 +179,7 @@ In this section, we're going to look at module system in Node by exploring the c
     console.log(`Listening on port ${PORT}...`);
     ```
 
-    - In real-world applications we're not going to respond to a connection event to build an http service, instead we're going to work with actual response or request to build backend services for our client app by handling various route.
-
-    ```js
-    const http = require("http");
-    const PORT = 3000;
-
-    const server = http.createServer((req, res) => {
-      if (req.url === "/") {
-        res.write("Hello World!");
-        res.end();
-      }
-      if (req.url === "/api/courses") {
-        res.write(
-          JSON.stringify([
-            {
-              id: 1,
-              name: "fullstack web development",
-              price: 300,
-              duration: "3 weeks",
-            },
-            {
-              id: 2,
-              name: "Mobile app development",
-              price: 350,
-              duration: "3 weeks",
-            },
-          ])
-        );
-        res.end();
-      }
-    });
-
-    // listen to a connection event raised
-    server.listen(PORT);
-    console.log(`Listening on port ${PORT}...`);
-    ```
+    - `NOTE`: In real-world applications we're not going to respond to a connection event to build an http service, instead we're going to work with actual response or request to build backend services for our client app by handling various route.
 
 #### Query Strings
 
