@@ -44,6 +44,8 @@ responding to a HTTP POST request
 - Create a new course
 
   ```js
+  app.use(express.json());
+  
   app.post("/api/courses", (req, res) => {
     // validate a course, if invalid return 400
     const { error } = validateCourse(req.body);
