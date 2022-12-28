@@ -18,14 +18,14 @@ The Express framework gives our application a proper structure, so we can easily
   $ npm i express
   ```
 
-the express app object has bunch of methods that correspond to http methods
+- the express app object has bunch of methods that correspond to http methods
 
-```js
-app.get(); // for handling http GET request
-app.post(); // for handling http POST request
-app.put(); // for handling http PUT request
-app.delete(); // for handling http DELETE request
-```
+  ```js
+  app.get(); // for handling http GET request
+  app.post(); // for handling http POST request
+  app.put(); // for handling http PUT request
+  app.delete(); // for handling http DELETE request
+  ```
 
 #### Enviroment Variables
 
@@ -84,8 +84,6 @@ Query strings are params added to url after `?` to provide optional data for our
   const app = express();
   ```
 
-````
-
 - define a routes/endpoints
 
   ```js
@@ -110,4 +108,3 @@ Query strings are params added to url after `?` to provide optional data for our
     console.log(`Listening at port ${PORT}...`);
   });
   ```
-````

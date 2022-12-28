@@ -45,7 +45,7 @@ responding to a HTTP POST request
 
   ```js
   app.use(express.json());
-  
+
   app.post("/api/courses", (req, res) => {
     // validate a course, if invalid return 400
     const { error } = validateCourse(req.body);
@@ -77,6 +77,8 @@ responding to a HTTP PUT request
 - update a course by its id
 
   ```js
+  app.use(express.json());
+
   app.put("/api/courses/:id", (req, res) => {
     // look up the course with given id, if not exist return 404
     const course = courses.find(
