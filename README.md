@@ -28,3 +28,11 @@ RESTful Services with Express
 - [RESTful Services](./4-resftul-services-with-express/restful.md)
 - [Express Web Server](./4-resftul-services-with-express/express.md)
 - [Handling HTTP requests](./4-resftul-services-with-express/handling-requests.md)
+
+Express - Advanced Concepts
+
+- [Middlewares](./5-express-advances/middleware.md)
+- [Configuration](./5-express-advances/configuration.md)
+- [Debugging](./5-express-advances/debugging.md)
+- [Template Engine](./5-express-advances/template-engines.md)
+- [Database Integration](./5-express-advances/database-integration.md)
